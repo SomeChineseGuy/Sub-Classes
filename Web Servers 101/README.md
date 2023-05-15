@@ -2,13 +2,13 @@
 
 ## Web Servers 101
 
-- [ ] Web Servers (Theory)
-- [ ] Request <-----> Response
-- [ ] Node JS Server
-- [ ] Express JS
-- [ ] GET Requests
-- [ ] EJS
-- [ ] Serverside rendering
+- [x] Web Servers (Theory)
+- [x] Request <-----> Response
+- [x] Node JS Server
+- [x] Express JS
+- [x] GET Requests
+- [x] EJS
+- [x] Serverside rendering
 
 ## TCP
 
