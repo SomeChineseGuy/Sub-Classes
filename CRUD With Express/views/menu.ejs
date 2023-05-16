@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <%- include('partials/_styles') %>
+</head>
+<body>
+  <%- include('partials/_nav') %>
+  <section>
+    <h2>Menu</h2>
+    <% for(let combo in combos) { %>
+      <a href="/menu/<%= combo %>"><h4>Combo: <%= combo %></h4></a>
+      <div>
+        <h3>Main: <%= combos[combo].main %></h3>
+        <h3>Side: <%= combos[combo].side %></h3>
+        <h3>Drink: <%= combos[combo].drink %></h3>
+      </div>
+      <div class="no-borders selection-container">
+        <div class="no-borders">
+          <form action="/menu/edit/<%= combo %>" method="POST">
+            <div class="no-borders">
+              <label for="main">Main</label>
+              <input type="text" name="main">
+            </div>
+            <div class="no-borders">
+              <label for="side">Side</label>
+              <input type="text" name="side">
+            </div>
+            <div class="no-borders">
+              <label for="drink">Drink</label>
+              <input type="text" name="drink">
+            </div>
+            <button class="button" type="submit">Edit</button>
+          </form>
+          <form action="/menu/<%= combo %>/delete" method="POST">
+            <button class="button" type="submit">Delete</button>
+          </form>
+        </div>
+      </div>
+    <% } %>
+  </section>
+  
+</body>
+</html>
