@@ -1,4 +1,14 @@
 <nav>
-  <a href="/menu/add" class="button"> Add New</a>
-  <a href="/menu" class="button"> Menu</a>
+  <a href="/menu/add" class="button"> <%= addNew %></a>
+  <a href="/menu" class="button"> <%= menu %></a>
+  <% if (user) { %>
+    <div>
+      <h2>Hello, <%= user.email %></h2>
+      <form action="/logout" method="POST">
+        <button type="submit">Logout</button>
+      </form>
+    </div>
+  <% } else { %>
+    <a href="/login" class="button">Login</a>
+  <% }  %>
 </nav>
