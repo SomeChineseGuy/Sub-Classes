@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Item</title>
+  <%- include('partials/_styles') %>
+</head>
+<body>
+  <%- include('partials/_nav') %>
+  <h2>Add your own items!</h2>
+  <section>
+    <form action="/menu/add" method="POST">
+      <div>
+        <label for="main">Main</label>
+        <input type="text" name="main" id="">
+      </div>
+      <div>
+        <label for="side">Side</label>
+        <input type="text" name="side" id="">
+      </div>
+      <div>
+        <label for="drink">Drink</label>
+        <input type="text" name="drink" id="">
+      </div>
+      <button class="button" type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>

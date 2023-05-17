@@ -1,0 +1,34 @@
+{
+  "homeHeadings": {
+    "en": "Greetings! Hello and welcome!",
+    "fr": "Salutations! Bonjour et bienvenue!",
+    "ja": "こんにちは！こんにちは、ようこそ！",
+    "ko": "인사말! 안녕하세요, 환영합니다!",
+    "es": "¡Saludos! ¡Hola y bienvenido!",
+    "so": "Salaan! Salaan yo soo dhawow!"
+  },
+  "homeBodies": {
+    "en": "This is the greatest site ever. But you must log in before proceeding.",
+    "fr": "C'est le meilleur site de tous les temps. Mais vous devez vous connecter avant de continuer.",
+    "ja": "これは史上最高のサイトです。ただし、続行する前にログインする必要があります。",
+    "ko": "이것은 가장 큰 사이트입니다. 그러나 계속 진행하기 전에 로그인해야합니다.",
+    "es": "Este es el mejor sitio de la historia. Pero debe iniciar sesión antes de continuar.",
+    "so": "Kani waa goobta ugu weyn abid. Laakiin waa inaad gasho ka hor intaadan sii wadin."
+  },
+  "addNew": {
+    "en": "Add New Item",
+    "fr": "Ajoute un nouvel objet",
+    "ja": "新しいアイテムを追加",
+    "ko": "새 항목 추가",
+    "es": "agregar ítem nuevo",
+    "so": "Ku dar shay cusub"
+  },
+  "menu": {
+    "en": "Menu",
+    "fr": "Menu",
+    "ja": "メニュー",
+    "ko": "메뉴",
+    "es": "Menú",
+    "so": "Menu"
+  }
+}
